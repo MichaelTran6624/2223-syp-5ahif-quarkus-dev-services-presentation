@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - asciidocs/**
+      - asciidocs/slides/**
   workflow_dispatch:
 
 jobs:
