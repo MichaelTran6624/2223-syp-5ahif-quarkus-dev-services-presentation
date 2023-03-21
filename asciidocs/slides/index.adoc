@@ -1,4 +1,4 @@
-= Quarkus dev services - Integrationtests
+= Quarkus dev services - Integrationstests
 ifndef::imagesdir[:imagesdir: ../images]
 ifndef::backend[:backend: html5]
 :notitle:
@@ -14,3 +14,10 @@ image::v_model.png[]
 == Keycloak
 
 * Tutorial: https://quarkus.io/guides/security-keycloak-authorization#testing-the-application
+
+=== Möglichkeiten für Keycloak Integrationstests
+
+* OAuth2
+* Mocking, z.b. wiremock-jre8
+
+Quelle: https://quarkus.io/guides/security-oauth2#integration-testing
