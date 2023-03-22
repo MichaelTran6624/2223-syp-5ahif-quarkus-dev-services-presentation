@@ -30,3 +30,22 @@ image::./people.jpg[background,size=cover]
 
 [.sources]
 Quelle: https://quarkus.io/guides/security-oauth2#integration-testing
+
+== Kafka
+image::./speech_bubble.jpg[background,size=cover]
+
+* Tutorial: https://quarkus.io/guides/kafka#testing-a-kafka-application
+** Kapitel 17
+
+[%notitle]
+=== Kafka Struktur
+image::kafka_overview.png[]
+
+[background-video="./ripped_paper.mp4",options="loop,muted"]
+=== Möglichkeiten für Kafka Integrationstests
+
+* mit Broker
+* ohne Broker
+
+== Datenbanken
+image::database.jpg[background,size=cover]
