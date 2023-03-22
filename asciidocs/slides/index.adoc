@@ -4,20 +4,29 @@ ifndef::backend[:backend: html5]
 :notitle:
 :icons: font
 :customcss: css/style.css
+:title-slide-background-image: ./paper_stack.jpg
 
 == Was sind Integrationstests?
+image::./statistics.jpg[background,size=cover]
+
+* Zusammenspiel zwischen zwei Teile des Gesamtsystems
 
 [%notitle]
 ===  V Modell
 image::v_model.png[]
 
 == Keycloak
+image::keylock.jpg[background,size=cover]
 
 * Tutorial: https://quarkus.io/guides/security-keycloak-authorization#testing-the-application
 
 === Möglichkeiten für Keycloak Integrationstests
+image::./people.jpg[background,size=cover]
 
 * OAuth2
-* Mocking, z.b. wiremock-jre8
+** Keycloak
+* Mocking
+** wiremock-jre8
 
+[.sources]
 Quelle: https://quarkus.io/guides/security-oauth2#integration-testing

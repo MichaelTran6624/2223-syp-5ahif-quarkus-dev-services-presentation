@@ -8,3 +8,13 @@
 .font-larger {
     font-size: larger;
 }
+
+.backgrounds {
+    opacity: 0.2;
+}
+
+.sources {
+    horiz-align: left;
+    vertical-align: bottom;
+    font-size: small;
+}
