@@ -1,6 +1,7 @@
 package at.htl.repository;
 
 import at.htl.entity.Person;
+import io.quarkus.test.TestTransaction;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +18,7 @@ class PersonRepositoryTest {
     PersonRepository personRepository;
 
     @Test
-    @Transactional
+    @TestTransaction
     void simple_test_persist_person_success(){
 
         Person newPerson = new Person();
@@ -32,10 +33,9 @@ class PersonRepositoryTest {
         Person result = personRepository.find("name", "Kani Lenker")
                 .firstResult();
 
-        assertEquals("Kani Lenker", result.name)
-                ;
-        assertEquals(LocalDate.of(2000,4,4), result.dob
-                );
+        assertEquals("Kani Lenker", result.name);
+
+        assertEquals(LocalDate.of(2000,4,4), result.dob);
     }
 
 }
