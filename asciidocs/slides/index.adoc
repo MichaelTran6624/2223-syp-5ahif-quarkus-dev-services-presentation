@@ -20,6 +20,12 @@ image::keylock.jpg[background,size=cover]
 
 * Tutorial: https://quarkus.io/guides/security-keycloak-authorization#testing-the-application
 
+[%notitle]
+=== Keycloak-Quarkus
+
+image::keycloak_quarkus.png[]
+// Quelle: https://medium.com/keycloak/quarkus-and-react-integration-with-keycloak-e03eb82d8cd
+
 === Möglichkeiten für Keycloak Integrationstests
 image::./people.jpg[background,size=cover]
 
